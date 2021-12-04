@@ -23,8 +23,8 @@ import os
 
 from absl.testing import absltest
 
-from seq2seq import config
-from seq2seq import data_utils
+from Seq2Seq_DU.seq2seq import config
+from Seq2Seq_DU.seq2seq import data_utils
 
 _VOCAB_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                            'test_data/bert_vocab.txt')
