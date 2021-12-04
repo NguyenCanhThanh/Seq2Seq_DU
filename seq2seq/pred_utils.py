@@ -27,8 +27,8 @@ import os
 
 import tensorflow as tf
 
-import schema
-from seq2seq import data_utils
+from Seq2Seq_DU import schema
+from Seq2Seq_DU.seq2seq import data_utils
 
 PAD_ID=0
 START_ID=1
