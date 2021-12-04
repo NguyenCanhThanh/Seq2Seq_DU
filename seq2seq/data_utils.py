@@ -28,8 +28,8 @@ import re
 
 import tensorflow.compat.v1 as tf
 
-import schema
-from seq2seq.bert import tokenization
+form Seq2Seq_DU import schema
+from Seq2Seq_DU.seq2seq.bert import tokenization
 
 # Dimension of the embedding for intents, slots and categorical slot values in
 # the schema. Should be equal to BERT's hidden_size.
