@@ -26,9 +26,9 @@ import re
 import numpy as np
 import tensorflow as tf
 
-from seq2seq import data_utils
-from seq2seq.bert import modeling
-from seq2seq.bert import tokenization
+from Seq2Seq_DU.seq2seq import data_utils
+from Seq2Seq_DU.seq2seq.bert import modeling
+from Seq2Seq_DU.seq2seq.bert import tokenization
 
 # Separator to separate the two sentences in BERT's input sequence.
 _NL_SEPARATOR = "|||"
