@@ -34,7 +34,7 @@ DATASET_CONFIG = {
     "dstc8_all":
         DatasetConfig(
             file_ranges={
-                "train": range(1, 128),
+                "train": range(1, 50),
                 "dev": range(1, 21),
                 "test": range(1, 35)
             },
